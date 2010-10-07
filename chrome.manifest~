@@ -1,0 +1,3 @@
+content returntoresults chrome/content/
+overlay chrome://browser/content/browser.xul chrome://returntoresults/content/overlay.xul
+skin returntoresults classic/1.0 chrome/skin/

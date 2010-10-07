@@ -1,0 +1,3 @@
+content peepshow chrome/content/
+overlay chrome://browser/content/browser.xul chrome://peepshow/content/overlay.xul
+skin peepshow classic/1.0 chrome/skin/

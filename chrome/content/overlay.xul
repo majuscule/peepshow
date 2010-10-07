@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<overlay id="returntoresults-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <?xml-stylesheet href="chrome://returntoresults/skin/returntoresults.css"
+                 type="text/css"?>
+  <script type="application/x-javascript"
+        src="chrome://peepshow/content/loader.js" />
+
+<popup id="contentAreaContextMenu">
+  <menuitem id="peepshow_contextmenubutton" label="View Linked Images"
+	insertafter="context-viewbgimage" accesskey="L"
+	 oncommand="load_images();"/>
+</popup>
+
+<menupopup id="menu_viewPopup">
+  <menuitem id="peepshow_menubutton" label="Linked Images"
+	insertafter="view_pagesource" oncommand="load_images();" accesskey="L" />
+</menupopup>
+
+	
+</overlay>
