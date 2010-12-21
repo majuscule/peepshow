@@ -1,0 +1,6 @@
+peepshow
+--------
+
+This Firefox addon adds a option to the right-click context menu called "View Linked Images'. Selecting this option at any time will find all anchor elements on the page that lead to images, and load them inline.
+
+screenshot.png shows an example of peepshow in action.
