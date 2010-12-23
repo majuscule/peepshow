@@ -14,7 +14,7 @@ for(var i = 0; i < anchors.length; i++) {
 
 		var img = content.document.createElement('img');
 		img.setAttribute('src', href);
-		img.setAttribute('style', 'display:inline;max-width:500px;');
+		img.setAttribute('style', 'display:block;max-width:500px;');
 		
 		var parent = anchors[i].parentNode;
 		parent.appendChild(img);
